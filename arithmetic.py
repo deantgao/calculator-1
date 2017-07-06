@@ -30,7 +30,8 @@ def square(num1):
 
 def cube(num1):
     """Return the cube of the input."""
-
+    total = num1 ** 3
+    return total
 
 def power(num1, num2):
     """Raise num1 to the power of num and return the value."""
