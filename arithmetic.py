@@ -7,9 +7,10 @@ def add(num1, num2):
     return total
 
 
-# def subtract(num1, num2):
-#     """Return the second number subtracted from the first."""
-
+def subtract(num1, num2):
+    """Return the second number subtracted from the first."""
+    total = num2 - num1
+    return total
 
 # def multiply(num1, num2):
 #     """Multiply the two inputs together."""
