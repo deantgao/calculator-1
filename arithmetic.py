@@ -20,7 +20,8 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Divide the first input by the second, returning a floating point."""
-
+    total = num1 / num2
+    return total
 
 def square(num1):
     """Return the square of the input."""
