@@ -3,8 +3,7 @@
 
 def add(num1, num2):
     """Return the sum of the two input integers."""
-    total = num1 + num2
-    return total
+    return num1 + num2
 
 
 def subtract(num1, num2):
@@ -42,3 +41,11 @@ def mod(num1, num2):
     """Return the remainder of num / num2."""
     total = num1 % num2
     return total
+
+def add_mult(num1, num2, num3):
+    """Add first two numbers and multiply by the third"""
+    return (num1 + num2) * num3
+
+def add_cubes(num1, num2):
+    """Cube both numbers and sum them"""
+    return (num1**3) + (num2 ** 3)
